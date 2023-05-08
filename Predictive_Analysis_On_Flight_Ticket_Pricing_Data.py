@@ -31,7 +31,7 @@ if PYSPARK_CLI:
 # COMMAND ----------
 
 # File location and type
-file_location = "/FileStore/tables/Flight_Dataset_Filtered_sample.csv"
+file_location = "/user/pwong4/Flight_Dataset_Filtered_Sample.csv"
 file_type = "csv"
 
 # CSV options
@@ -107,7 +107,7 @@ featVect = VectorAssembler(inputCols=["idxCatFeatures","normFeatures"],outputCol
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## Gradient Boosted Tree
+# MAGIC ## Gradient Boosted Tree Sample
 
 # COMMAND ----------
 
@@ -210,7 +210,7 @@ print("RMSE: %f" % gbtcv_evaluator.evaluate(prediction))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## Random Forest Regression
+# MAGIC ## Random Forest Regression Sample
 
 # COMMAND ----------
 
@@ -305,7 +305,7 @@ print("RMSE: %f" % rfcv_evaluator.evaluate(prediction))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## Factorization Machines Regressor
+# MAGIC ## Factorization Machines Regressor Sample
 
 # COMMAND ----------
 
@@ -409,7 +409,7 @@ print("RMSE: %f" % fm_cvevaluator.evaluate(prediction))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## Decision Tree Regression
+# MAGIC ## Decision Tree Regression Sample
 
 # COMMAND ----------
 
