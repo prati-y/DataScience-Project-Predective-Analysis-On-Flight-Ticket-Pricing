@@ -8,4 +8,4 @@ By leveraging these insights, airlines can determine the most optimal pricing ap
 
 The dataset can also benefit customers by allowing them to forecast future flight prices, helping them plan their journeys accordingly.​
 
-We are using machine learning models to perform predective analysis on Flight Pricing ticketing data​
+We are using machine learning models to perform predective analysis on Flight Pricing ticketing data.​
