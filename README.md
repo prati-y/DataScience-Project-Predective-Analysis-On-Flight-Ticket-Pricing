@@ -7,3 +7,5 @@ Analyzing flight price datasets enables identification of pricing trends over ti
 By leveraging these insights, airlines can determine the most optimal pricing approach for specific routes and time periods.​
 
 The dataset can also benefit customers by allowing them to forecast future flight prices, helping them plan their journeys accordingly.​
+
+We are using machine learning models to perform predective analysis on Flight Pricing ticketing data​
